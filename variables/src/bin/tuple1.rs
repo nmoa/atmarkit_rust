@@ -1,5 +1,4 @@
-fn main()
-{
+fn main() {
     let t = (2, 3.14, 0);
     let (a, b, c) = t;
     println!("a={}, b={}, c={}", a, b, c);

@@ -1,6 +1,7 @@
+const TAX_RATE: f64 = 1.1;
+
 fn main() {
-    let mut x = 100;
+    let x = 100;
     println!("{}", x);
-    x = 200;
-    println!("{}", x);
+    println!("{}", TAX_RATE);
 }

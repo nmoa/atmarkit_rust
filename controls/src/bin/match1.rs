@@ -1,5 +1,5 @@
 fn main() {
-    let letter = 'S';
+    let letter = 'A';
     let str = match letter {
         'Z' => "アルファベット最後の文字",
         'S' | 'M' | 'L' => "サイズを表すアルファベット",

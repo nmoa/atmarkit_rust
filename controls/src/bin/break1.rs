@@ -1,5 +1,5 @@
 fn main() {
-    let scores = [90, 20, 100, 40, 60];
+    let scores = [90, 20, 90, 40, 60];
     let mut i = 0;
     let f = loop {
         if scores[i] == 100 {
