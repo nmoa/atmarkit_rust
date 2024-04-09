@@ -7,12 +7,16 @@ struct Person {
 }
 
 fn main() {
-    // 初期化の順序が構造体の宣言と同じでなくてもよい
-    let nao = Person {
+    // mutableな構造体を作ることもできる
+    // フィールド単位でmutableとimmutableを混在させることはできない
+    let mut nao = Person {
         birth: 1945,
         height: 160.0,
         name: String::from("山内直"),
         sex: 'm',
         weight: 80.0,
     };
+
+    nao.sex = 'f';
+    println!("性別は {} です。", nao.sex);
 }

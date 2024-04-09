@@ -14,7 +14,8 @@ fn main() {
         height: 160.0,
         weight: 80.0,
     };
-    
+
+    // someoneを参照して明示していないフィールドを初期化できる
     let nao = Person {
         name: "山内直".to_string(),
         birth: 1960,

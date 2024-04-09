@@ -8,5 +8,5 @@ fn main() {
 
 fn search_position(s: String, c: char) -> (String, usize) {
     let pos = s.find(c).unwrap();
-    (s, pos)
+    (s, pos) // 所有権を借用しない場合、受け取った文字列を返してあげないと、呼び出し側ではそれを引き続き使えない
 }
